@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005 | @PredatorHackerzZ
+# (c) @AbirHasan2005 | @tellyfun4u
 
 import os
 
@@ -13,19 +13,17 @@ class Config(object):
     DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
     TIME_GAP = int(os.environ.get("TIME_GAP", 5))
     MAX_VIDEOS = int(os.environ.get("MAX_VIDEOS", 5))
-    STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME")
-    STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS")
     MONGODB_URI = os.environ.get("MONGODB_URI")
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
     BOT_OWNER = int(os.environ.get("BOT_OWNER", 1445283714))
 
     START_TEXT = """
-Hello! Duffer, This is a Video Merger Bot!
-This Bot can Merge Multiple Videos in One Video AnD Video Formats should be same. 
+Hello! I am a video Merger Bot! By @tellyfun4u
+This Bot can Merge Multiple Videos in One Video And Video Formats must to be same. 
 
-Made by @TheTeleRoid
+Made by @tellyfun4u
 """
-    CAPTION = "Video Merged by @{}\n\nMade by\n\n@TheTeleRoid"
+    CAPTION = "Video Merged by @{}\n\nMade by\n\n@tellyfun4u"
     PROGRESS = """
 🛠Percentage : {0}%
 ✅Done: {1}
